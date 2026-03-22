@@ -1,0 +1,51 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.cars {
+	margin: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	row-gap: 20px;
+	font-family: sans-serif;
+}
+.car {
+	border-radius: 10px;
+	position: relative;
+	width: 18%;
+
+	box-shadow: 0 5px 9px rgba(0, 0, 0, 0.1);
+}
+
+.novo {
+	padding: 3px;
+	border-radius: 5px;
+	font-size: 0.8rem;
+	color: white;
+	background-color: rgb(21, 218, 244);
+	position: absolute;
+	top: 5px;
+	left: 5px;
+}
+.hidden {
+	display: none;
+}
+.cars img {
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	width: 100%;
+	height: 150px;
+}
+
+.info {
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+.godinaProizvodnje {
+	color: rgb(108, 117, 125);
+}
+.cars h2 {
+	padding-left: 10px;
+}
