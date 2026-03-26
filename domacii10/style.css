@@ -1,0 +1,80 @@
+body {
+	font-family: sans-serif;
+	background-color: #f4f6f9;
+	margin: 0;
+	padding: 20px;
+}
+
+form {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+	margin-bottom: 25px;
+	flex-wrap: wrap;
+}
+
+select {
+	padding: 8px 12px;
+	border-radius: 6px;
+	border: 1px solid #ccc;
+	background-color: white;
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+select:hover {
+	border-color: #007bff;
+}
+
+button {
+	padding: 9px 16px;
+	border: none;
+	border-radius: 6px;
+	background-color: #007bff;
+	color: white;
+	cursor: pointer;
+	font-weight: bold;
+	transition: 0.2s;
+}
+
+button:hover {
+	background-color: #0056b3;
+}
+
+#estates {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 15px;
+}
+
+.realEstate {
+	width: 250px;
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+	padding: 15px;
+	transition:
+		transform 0.2s,
+		box-shadow 0.2s;
+}
+
+.realEstate:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+}
+
+.realEstate p {
+	margin: 6px 0;
+	color: #333;
+}
+
+.realEstate .city {
+	font-size: 18px;
+	font-weight: bold;
+	color: #007bff;
+}
+
+.hidden {
+	display: none;
+}
