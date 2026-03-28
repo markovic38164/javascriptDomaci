@@ -1,0 +1,93 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, sans-serif;
+}
+
+body {
+	background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+}
+
+#selectCategory {
+	padding: 10px 15px;
+	margin-bottom: 20px;
+	border-radius: 8px;
+	border: 1px solid #ccc;
+	font-size: 16px;
+	cursor: pointer;
+	background: white;
+	transition: 0.2s;
+}
+
+#selectCategory:hover {
+	border-color: #888;
+}
+
+#container {
+	width: 100%;
+	max-width: 700px;
+}
+
+.divDish {
+	background: white;
+	border-radius: 16px;
+	padding: 20px;
+	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+	transition: 0.3s;
+}
+
+.divDish:hover {
+	transform: translateY(-5px);
+}
+
+.dishName {
+	font-size: 28px;
+	margin-bottom: 10px;
+	color: #333;
+}
+
+.cuisine {
+	color: #777;
+	margin-bottom: 15px;
+	font-style: italic;
+}
+
+.divDish img {
+	width: 100%;
+	max-width: 100%;
+	border-radius: 12px;
+	margin-bottom: 15px;
+	object-fit: cover;
+}
+
+.divList {
+	background: #f9f9f9;
+	padding: 15px;
+	border-radius: 10px;
+}
+
+.divList p {
+	font-weight: bold;
+	margin-bottom: 10px;
+	color: #444;
+}
+
+.divList ol {
+	padding-left: 20px;
+}
+
+.divList li {
+	margin-bottom: 5px;
+	color: #555;
+}
+#container {
+	font-size: 18px;
+	color: #555;
+	text-align: center;
+}
