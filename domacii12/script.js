@@ -6,3 +6,5 @@ function login(username, lozinka) {
 }
 
 console.log(login('Admin', 'admin'));
+
+
