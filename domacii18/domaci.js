@@ -23,6 +23,8 @@ async function searchOMDBApi(params) {
 
 	let response = await fetch(url + '?apikey=' + apiKey + '&' + params);
 
+	
+
 	let data = await response.json();
 	return data;
 }

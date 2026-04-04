@@ -12,6 +12,8 @@
   "license": "ISC",
   "devDependencies": {
     "axios": "^1.14.0",
+    "dotenv": "^17.4.0",
+    "dotenv-webpack": "^9.0.0",
     "webpack": "^5.105.4",
     "webpack-cli": "^7.0.2"
   }
