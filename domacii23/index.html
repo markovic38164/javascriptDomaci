@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="sr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Vremenska Prognoza</title>
+		<link rel="stylesheet" href="style.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+		/>
+	</head>
+	<body>
+		<div class="container">
+			<header class="header">
+				<div class="header-left">
+					<h1><a href="">Vremenska Prognoza</a></h1>
+					<p id="cityName" class="city-name"></p>
+				</div>
+
+				<div class="header-right">
+					<button id="changeLocationButton" class="btn btn-location">
+						<i class="fas fa-map-marker-alt"></i>
+						Promeni grad
+					</button>
+					<button id="showWeatherForMyLocationButton" class="btn btn-location">
+						Moja lokacija
+					</button>
+					<select id="forecastDays" class="select-days">
+						<option value="1">1 dan</option>
+						<option value="2">2 dana</option>
+						<option value="3" selected>3 dana</option>
+					</select>
+
+					<input type="date" id="dateInput" class="btn dateBtn" />
+				</div>
+			</header>
+
+			<div id="currentWeather" class="current-weather glass"></div>
+
+			<h2 class="section-title">Prognoza za naredne dane</h2>
+
+			<div id="forecast" class="forecast-grid"></div>
+		</div>
+
+		<script type="module" src="./dist/script.min.js"></script>
+	</body>
+</html>
